@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/material_dynamic_neutral10">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:src="@drawable/signup"
+    android:layout_marginTop="50dp"
+    android:layout_gravity="center"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Your Account"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Username*"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+
+        />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your Email*"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+
+        />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter password*"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+
+        />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Reenter password*"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="I agree to the Terms And Conditions"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/createid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Create Account"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
